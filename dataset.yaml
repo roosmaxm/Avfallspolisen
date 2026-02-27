@@ -1,0 +1,13 @@
+# YOLO Dataset-konfiguration för Avfallspolisen
+# Tre klasser: Dryckeskartong (0), Konservburk (1), Pantburk (2)
+
+path: ./dataset      # Rotkatalog för datasetet
+train: images/train  # Träningsbilder (relativ till path)
+val: images/val      # Valideringsbilder (relativ till path)
+test: images/test    # Testbilder (relativ till path)
+
+nc: 3  # Antal klasser
+names:
+  - Dryckeskartong
+  - Konservburk
+  - Pantburk
